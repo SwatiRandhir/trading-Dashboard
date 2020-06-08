@@ -638,7 +638,7 @@ class Dashboard extends Component {
           </Col>
         </Row>
 
-        <Row>
+        {/* <Row>
           <Col xs="6" sm="6" lg="3">
             <Suspense fallback={this.loading()}>
               <Widget03 dataBox={() => ({ variant: 'facebook', friends: '89k', feeds: '459' })} >
@@ -678,7 +678,7 @@ class Dashboard extends Component {
               </Widget03>
             </Suspense>
           </Col>
-        </Row>
+        </Row> */}
 
 
       </div>

@@ -271,10 +271,10 @@ export default {
     //   url: '/dashboard',
     //   icon: 'icon-ban',
     //   attributes: { disabled: true },
-    // },
+    // },n
     {
       name: 'Logout',
-      url: '#',
+      url: '/login',
       icon: 'cui-account-logout',
       class: 'mt-auto',
       variant: 'success',

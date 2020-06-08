@@ -23,6 +23,7 @@ import {
   InputGroupText,
   Label,
   Row,
+  Table
 } from 'reactstrap';
 
 class Forms extends Component {
@@ -117,12 +118,57 @@ class Forms extends Component {
           </Col>
 
         </Row>
+
         <Row>
+          <Col>
+            <Card>
+              <CardHeader>
+                <i className="fa fa-align-justify"></i> Goals
+              </CardHeader>
+              <CardBody>
+                <Table hover bordered striped responsive size="sm">
+                  <thead>
+                    <tr>
+                      <th>Please insert your Goals</th>
+                      <th>Profile Expected</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Daily Trading Goal(Profile)</td>
+                      <td>500</td>
+
+                    </tr>
+                    <tr>
+                      <td>Swing Trading Goals(Profile)</td>
+                      <td>1000</td>
+
+                    </tr>
+                    <tr>
+                      <td>Total goal(Profile)</td>
+                      <td>1500</td>
+
+                    </tr>
+
+                  </tbody>
+                </Table>
+
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+
+
+
+
+
+        {/* <Row>
           <Col xs="12"  >
             <Card>
               <CardHeader>
                 <strong>Goals</strong>
-                {/* <small> Form</small> */}
+                <small> Form</small>
               </CardHeader>
               <CardBody>
 
@@ -134,7 +180,7 @@ class Forms extends Component {
                         <option value="1">Daily Trading Goal(Profile)</option>
                         <option value="2">Swing Trading Goals(Profile)</option>
                         <option value="3">Total goal(Profile)</option>
-                        {/* <option value="4">10 min</option> */}
+                        
                       </Input>
                     </FormGroup>
                   </Col>
@@ -145,11 +191,12 @@ class Forms extends Component {
                     </FormGroup>
                   </Col>
                 </Row>
+
               </CardBody>
             </Card>
           </Col>
 
-        </Row>
+        </Row> */}
         {/* <Row>
           <Col xs="12" md="6">
             <Card>
